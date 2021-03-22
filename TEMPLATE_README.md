@@ -1,8 +1,16 @@
-# Title
 
-**Authors**: Student1, Student2
+Movie Analysis  
 
-## Overview
+Kennedi White 
+
+## Overview 
+Movies are an important part of our everyday life and we seek them out for enjoyment and fulfillment, but what makes a successful movie? The business problems is that Microsoft needs us to help familiarize them with the film industry, and provide recommendations to get them started in creating successful movies. We take a deeper look into the highest average ratings per movie, the top rated movies overall and the number of ratings to see if there are any correlations or comparisons we can obtain. This analysis will give Microsoft a better picture into what movies are doing well and draw insights into potential reason why. The data used to help provide insight into this business problems was imported pandas as pd, and the three files: 
+1.df = pd.read_csv('data/zippedData/imdb.title.basics.csv.gz
+2.df2 = pd.read_csv('data/zippedData/imdb.title.ratings.csv.gz
+3.df3 = pd.read_csv('data/zippedData/bom.movie_gross.csv.gz
+
+The methods used are importing pandas and required dataframes used for analysis, merging of data frames on common and unique identifiers, as well as visual representations of histograms, descriptive statistics and correlation plots for insight.  
+
 
 A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
 
@@ -20,7 +28,12 @@ Questions to consider:
 ## Data
 
 Describe the data being used for this project.
+The data came from the specific files: 
+1.df = pd.read_csv('data/zippedData/imdb.title.basics.csv.gz
+2.df2 = pd.read_csv('data/zippedData/imdb.title.ratings.csv.gz
+3.df3 = pd.read_csv('data/zippedData/bom.movie_gross.csv.gz
 
+They relate to the data analysis questions because all of them provide insight into what important strategies the company needs to look into and implement to make a successful movie or bring a successful movie to fruition. The data represents critical variables for analysis such as: primary title, average rating, num votes and gross income (domestic and international) that was receieved for each production. I believe the target variable can't be singled down to one as all are working together in some capactity to create a successful movie; however, I do believe average rating is the most important variable. As it is seen in analysis, that the movies with higher average rating made more money gross income overall and were the most profitable. Now, what aided the average rating has greatly to do with marketing and advertising and what movies are in the limelight for critics to reviews, and nevertheless are recommended to the audience more quickly than movies with lower ratings. The properties of the variables are 
 ***
 Questions to consider:
 * Where did the data come from, and how do they relate to the data analysis questions?
